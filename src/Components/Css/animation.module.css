@@ -1,0 +1,17 @@
+.animation {
+    position: relative;
+    animation: scale 1s 1;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+
+  p{
+    color:#04d6c8
+  }
